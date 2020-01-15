@@ -9,8 +9,7 @@ class Library:
     
     def list_books(self):
         for book in self.books:
-            print(book)
+            print(book.title)
 
     def add_book(self, new_book):
         self.books.append(new_book)
-        
