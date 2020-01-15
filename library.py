@@ -13,3 +13,9 @@ class Library:
 
     def add_book(self, new_book):
         self.books.append(new_book)
+
+# You can use this as you would use console.log to test things while in a module.
+if __name__ == '__main__':
+    print("this")
+    
+

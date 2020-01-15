@@ -25,6 +25,7 @@ book_two = Book("Kate Chopin", "The Awakening")
 book_two.start_reading()
 
 book_three = Book("Eric Carle", "The Very Hungry Caterpillar")
+book_four = Book("Margaret Wise Brown", "Goodnight Moon")
 
 nss_library = Library("THE NSS LIBRARY")
 print(nss_library.name)
@@ -32,6 +33,13 @@ print(nss_library.name)
 nss_library.add_book(book_one)
 nss_library.add_book(book_two)
 nss_library.add_book(book_three)
+nss_library.add_book(book_four)
 
 nss_library.list_books()
+
+nss_library.set_address("301 Plus Park Blvd")
+
+print(nss_library.address)
+
+
 
