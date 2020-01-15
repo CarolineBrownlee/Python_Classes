@@ -11,9 +11,6 @@ class Pizza:
 
 # 3. Add a method for outputting a description of the pizza (sample output below).
     def order(self): 
-        # for topping in toppings:
-        #     if topping 
-        # .join turns all entries in an array into a string
         toppings = " and ".join(self.toppings)
         print(f"I would like a {self.size} inch, {self.crust} crust pizza with {toppings}.")
 
