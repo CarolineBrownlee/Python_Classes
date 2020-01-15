@@ -20,7 +20,7 @@ class Building:
         self.owner = owner
 
     def details(self):
-        print(f"{self.address} was purchased by {self.owner} on {self.date_constructed} and has {self.stories} stories.")
+        print(f"{self.address} was purchased by {self.owner} on {self.date_constructed.strftime('%m-%d-%y')} and has {self.stories} stories.")
 
 # 4. Create 5 building instances
 Empire_State_Building = Building("New York", 102)
@@ -49,4 +49,3 @@ Tutor_Style_Home.details()
 Cape_Cod_Style_Home.details()
 Mansion_Home.details()
 Flat_Apartment.details()
-
