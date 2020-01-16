@@ -24,7 +24,7 @@ class Building:
 
 # 4. Create 5 building instances
 Empire_State_Building = Building("New York", 102)
-Tutor_Style_Home = Building("Missoula", 2)
+Tutor_Style_Home = Building("Seattle", 2)
 Cape_Cod_Style_Home = Building("Denver", 2)
 Mansion_Home = Building("Bainbridge Island", 3)
 Flat_Apartment = Building("Nashville", 1)
