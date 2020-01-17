@@ -13,4 +13,6 @@ class Company:
 
     def list_employees(self):
         for employee in self.employees:
-            print(employee.name)
+            print(f"* " + employee.name)
+
+

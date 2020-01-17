@@ -28,8 +28,6 @@ Carolines_App_Shop.add_employee(Hendrix)
 
 Carolines_App_Shop.add_employee(Gates)
 
-Carolines_App_Shop.list_employees()
-
 # 4. Output a report to the terminal the displays a business name, and its employees.
 print(f"{Dougs_Mountainside_Adventures.business_name} is in the {Dougs_Mountainside_Adventures.industry} industry and has the following employees: ") 
 
@@ -38,3 +36,6 @@ Dougs_Mountainside_Adventures.list_employees()
 print(f"{Carolines_App_Shop.business_name} is in the {Carolines_App_Shop.industry} industry and has the following employees: ") 
 
 Carolines_App_Shop.list_employees()
+
+
+
